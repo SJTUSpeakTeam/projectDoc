@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80f665fb-0adc-42c7-858d-e3718988880c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAS/templates/all_question.html" beforeDir="false" afterPath="$PROJECT_DIR$/QAS/templates/all_question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAS/templates/create_question.html" beforeDir="false" afterPath="$PROJECT_DIR$/QAS/templates/create_question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAS/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/QAS/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAS/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/QAS/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAS/templates/mainpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/QAS/templates/mainpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAS/templates/personal_collect_question.html" beforeDir="false" afterPath="$PROJECT_DIR$/QAS/templates/personal_collect_question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAS/templates/personal_homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/QAS/templates/personal_homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAS/templates/personal_homepage_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/QAS/templates/personal_homepage_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAS/templates/personal_related_discuss.html" beforeDir="false" afterPath="$PROJECT_DIR$/QAS/templates/personal_related_discuss.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAS/templates/question_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/QAS/templates/question_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAS/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/QAS/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAS/templates/register_origin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAS/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/QAS/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAS/templates/search_keyword.html" beforeDir="false" afterPath="$PROJECT_DIR$/QAS/templates/search_keyword.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAS/templates/search_subject.html" beforeDir="false" afterPath="$PROJECT_DIR$/QAS/templates/search_subject.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAS/templates/select.html" beforeDir="false" afterPath="$PROJECT_DIR$/QAS/templates/select.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAS/templates/select_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/QAS/templates/select_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAS/templates/test_ly.html" beforeDir="false" afterPath="$PROJECT_DIR$/QAS/templates/test_ly.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAS/templates/test_ly2.html" beforeDir="false" afterPath="$PROJECT_DIR$/QAS/templates/test_ly2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QAS/templates/update_question.html" beforeDir="false" afterPath="$PROJECT_DIR$/QAS/templates/update_question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img-folder/20200424182322.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img-folder/dac8db0879f8b88c16d75336b1969aa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img-folder/df98a8622831bfc9909a431d55d9882.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img-folder/f170040780ea3dba5a0318fa512065c.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1caTd954Qmqb1BAiakIsKQTyJBJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80f665fb-0adc-42c7-858d-e3718988880c" name="Default Changelist" comment="" />
+      <created>1590765789326</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590765789326</updated>
+      <workItem from="1590765798011" duration="120000" />
+      <workItem from="1590765940691" duration="79000" />
+      <workItem from="1590766122884" duration="1438000" />
+      <workItem from="1590769159622" duration="1522000" />
+      <workItem from="1600159009689" duration="955000" />
+      <workItem from="1601809990377" duration="3000" />
+      <workItem from="1602066545517" duration="10891000" />
+      <workItem from="1602078091957" duration="1161000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="348" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1602076937379">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="348" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1368.872@0.0.1368.872" timestamp="1602076937379" />
+  </component>
+</project>
