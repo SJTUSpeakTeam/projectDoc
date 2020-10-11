@@ -1,0 +1,49 @@
+html，body{
+  height:100%;
+  margin :0;
+  padding :0;
+}
+
+
+
+body{
+  background:red url(img/index.jpg) center center;
+  background-size :cover;   
+  position : relative;
+}
+
+.container{
+  position :center;
+  margin-top:17%;
+  text-align:center;
+  width: 100%;
+  
+}
+
+h1{
+    line-height: 90px;
+    color: #f7f8ae;
+    font-size: 50px;
+}
+p{
+    line-break: 80px;
+    font-size: 22px;
+    color: #f7f8ae;
+}
+
+.btn{
+            width: 200px;
+            height: 60px;
+            background-color: #c47418;
+            color:#c47418 ;
+            font-size: 24px;
+            line-height: 60px;
+            text-align: center;
+}
+
+.btn{
+ margin: 30px auto;
+}
+.btn{
+   border-radius: 10px;
+}
