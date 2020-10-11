@@ -22,13 +22,16 @@ body{
 
 h1{
     line-height: 90px;
-    color: #f7f8ae;
+    color: #9254de;
     font-size: 50px;
+    font-family: STHupo;
 }
 p{
     line-break: 80px;
     font-size: 22px;
-    color: #f7f8ae;
+    color: #391085;
+    font-family: SimHei;
+    font-weight:800;
 }
 
 .btn{
