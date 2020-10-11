@@ -10,6 +10,7 @@
     <link href="../static/bootstrap-combined.min.css" rel="stylesheet">
 
     <link href="../static/layoutit.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/mycss/login.css">
 </head>
 
 <body>
@@ -26,13 +27,18 @@
   <li role="presentation"><a  style="height: 45px; line-height: 25px">最多浏览</a></li>
   <li role="presentation"><a  style="height: 45px; line-height: 25px">最多点赞</a></li>
   <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-  <li role="presentation" class="dropdown">
-    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="height: 45px; line-height: 25px">
-      选择科目
-    </a>
-    <ul class="dropdown-menu">
-            <li><a >{{ s.name }}</a></li>
-    </ul>
+
+    <li role="presentation" class="dropdown">
+        <select name="type"   >
+          <option value="1">所有主题</option>
+          <option value="0">主题一</option>
+          <option value="0">主题二</option>
+          <option value="0">主题三</option>
+      </select>
+      </li>
+      <ul class="dropdown-menu">
+        <li><a >{{ s.name }}</a></li>
+</ul>
 </ul>
 
 <table class="table">
@@ -40,7 +46,8 @@
 		<tr>
             <th>用户</th>
 			<th>标题</th>
-			<th>主题</th>
+            <th>主题</th>
+            <th>问题内容</th>
 			<th>更新时间</th>
             <th>浏览</th>
             <th>赞</th>
@@ -56,6 +63,7 @@
          </th>
         <th> <a >标题<br></a> </th>
         <th>主题<br> </th>
+        <th>问题内容，问题内容，问题内容<br> </th>
         <th>2020-10-01<br> </th>
         <th>1<br> </th>
         <th>1<br> </th>
