@@ -1,0 +1,34 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: meta-back-end
+spec:
+  hosts:
+  - "*"
+  gateways:
+  - syh-gateway
+  http:
+  - match:
+    - uri:
+       prefix: /
+    # rewrite:
+      # uri: /
+    route:
+    - destination:
+        host: meta-back-end
+        port:
+          number: 30392
+    corsPolicy:
+      allowOrigin:
+      - "*"
+      allowMethods:
+      - POST
+      - GET
+      - DELETE
+      - PUT
+      allowCredentials: true
+      allowHeaders:
+      - "token"
+      - "jwt"
+      - "content-type"
+      - "authorization"
