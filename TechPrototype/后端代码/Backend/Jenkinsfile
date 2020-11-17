@@ -1,0 +1,71 @@
+pipeline{
+
+	agent any
+	tools {
+		maven 'Maven'
+	}
+	parameters {
+		string(name: 'REPO', defaultValue: '10.0.0.12:5000', description: '私有镜像仓库地址')
+		string(name: 'VERSION', defaultValue: 'canary', description: '后端版本号')
+		booleanParam(name: 'TEST', defaultValue: true, description: '是否进行测试')
+		choice(name: 'ENV', choices: ['release', 'canary'], description: '编译配置策略')
+	}
+	
+	stages{
+		stage("Build"){
+			steps {
+				sh "sudo rm -r -f target"
+				sh "sed -i \"s/localhost:3306/mysql.mysql:3306/g\" ./src/main/resources/application.properties"
+				sh "sed -i \"s/localhost:27017/mongo-2.mongo.mongo.svc.cluster.local:27017/g\" ./src/main/resources/application.properties"
+				sh "sudo mvn package"
+				sh "sed -i \"s/mysql.mysql:3306/localhost:3306/g\" ./src/main/resources/application.properties"
+				sh "sed -i \"s/mongo-2.mongo.mongo.svc.cluster.local:27017/localhost:27017/g\" ./src/main/resources/application.properties"
+			}
+		}
+		
+		stage("Test"){
+			when {
+				expression {
+					params.TEST
+				}
+			}
+			steps {
+				sh "sudo mvn test"
+			}
+		}
+	
+		stage("Build IMG"){
+			steps {
+				sh "sudo docker build -t ${params.REPO}/syh-back-end:${params.VERSION} ."
+				echo "Pack version: ${params.VERSION}"
+			}
+		}
+		
+		stage("Push IMG"){
+			steps {
+				sh "sudo docker push ${params.REPO}/syh-back-end:${params.VERSION}"
+			}
+		}
+		
+		stage("Deploy"){
+		
+			steps {
+				sh "sudo sed -i \"s/syh-back-end:.*/syh-back-end:${params.VERSION}/g\" services/meta-back-end/deployment.yaml"
+				sh "sudo kubectl --kubeconfig=/root/.kube/config apply -f services/meta-back-end"
+				sh "sudo sed -i \"s/syh-back-end:.*/syh-back-end:VERSION_NUMBER/g\" services/meta-back-end/deployment.yaml"
+			}
+		}
+		
+		stage("Rerun canary"){
+			when{
+				expression{
+					params.VERSION == "canary"
+				}
+			}
+			steps{
+				sh 'sudo kubectl --kubeconfig=/root/.kube/config delete pod $(sudo kubectl --kubeconfig=/root/.kube/config get pod | grep meta | awk \'{print $1}\')'
+			}
+		}
+	
+	}
+}
