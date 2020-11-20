@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80f665fb-0adc-42c7-858d-e3718988880c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../frontend/src/Components/PersonPage/QuestionItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/Components/UploadImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/SubViews/PersonPage/EditInformation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/SubViews/PersonPage/Information.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/SubViews/PersonPage/QuestionCollected.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/SubViews/PersonPage/QuestionJoined.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/SubViews/PersonPage/QuestionRaised.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/demo/iconClose.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/demo/iconSideMenu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/demo/plugins-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/demo/style-demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/emoji/emoji-angry.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/emoji/emoji-bad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/emoji/emoji-crazy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/emoji/emoji-happy-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/emoji/emoji-happy-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/emoji/emoji-happy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/emoji/emoji-in-love (1).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/emoji/emoji-in-love.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/emoji/emoji-laughing.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/emoji/emoji-nerd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/emoji/emoji-pressure.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/emoji/emoji-sad-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/emoji/emoji-sad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/emoji/emoji-shocked-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/emoji/emoji-shocked-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/emoji/emoji-shocked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/emoji/emoji-sweating.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/emoji/emoji-thinking.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/emoji/emoji-wink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/icon-app.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/icon-design.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/icon-dev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/icon-education.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/icon-experience (1).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/icon-experience.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/icon-news.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/icon-photo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/icon-quote-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/icon-quote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/icons/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/images/favicons/apple-touch-icon-114x114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/images/favicons/apple-touch-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/images/favicons/apple-touch-icon-57x57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/images/favicons/apple-touch-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/images/favicons/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/images/icon-map-pic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/images/triangles-bottom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/images/triangles-top.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/avatar-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/avatar-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/avatar-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/avatar-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/avatar-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/image_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/image_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/image_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/image_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/image_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/image_06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/image_07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/image_08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/image_09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/image_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/image_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/image_header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/logo-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/logo-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/logo-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/logo-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/main-photo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/js/mapbox.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/js/plugins.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/styles/style-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/styles/style-rtl-demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/styles/style-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/styles/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/styles/vendors/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/styles/vendors/rtl/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/styles/vendors/swiper.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/Css/custom5152.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Css/custom5152.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/Css/main5152.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Css/main5152.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/Views/PersonPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Views/PersonPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/Views/temp.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/Views/temp.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1caTd954Qmqb1BAiakIsKQTyJBJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80f665fb-0adc-42c7-858d-e3718988880c" name="Default Changelist" comment="" />
+      <created>1590765789326</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590765789326</updated>
+      <workItem from="1590765798011" duration="120000" />
+      <workItem from="1590765940691" duration="79000" />
+      <workItem from="1590766122884" duration="1438000" />
+      <workItem from="1590769159622" duration="1522000" />
+      <workItem from="1600159009689" duration="955000" />
+      <workItem from="1601809990377" duration="3000" />
+      <workItem from="1602066545517" duration="10891000" />
+      <workItem from="1602078091957" duration="1161000" />
+      <workItem from="1602080168207" duration="272000" />
+      <workItem from="1602418036483" duration="169000" />
+      <workItem from="1602418525169" duration="882000" />
+      <workItem from="1602918080106" duration="20000" />
+      <workItem from="1602931047650" duration="653000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="465" y="191" key="FileChooserDialogImpl" timestamp="1602918098680">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="465" y="191" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1602918098680" />
+    <state x="348" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1602076937379">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="348" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1368.872@0.0.1368.872" timestamp="1602076937379" />
+  </component>
+</project>
