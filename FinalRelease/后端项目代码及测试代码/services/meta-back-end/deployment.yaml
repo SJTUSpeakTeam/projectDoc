@@ -1,0 +1,20 @@
+apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
+kind: Deployment
+metadata:
+  name: meta-back-end
+spec:
+  selector:
+    matchLabels:
+      app: meta-back-end
+  replicas: 8 # tells deployment to run 2 pods matching the template
+  template:
+    metadata:
+      labels:
+        app: meta-back-end
+    spec:
+      containers:
+      - name: meta-back-end
+        image: 10.0.0.12:5000/syh-back-end:VERSION_NUMBER
+        imagePullPolicy: Always   # always rePull image!!
+        ports:
+        - containerPort: 30392

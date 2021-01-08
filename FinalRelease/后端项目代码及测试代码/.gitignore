@@ -1,0 +1,14 @@
+/.idea
+.ide
+spillyourheart.iml
+/target
+target
+target/*
+target/classes/application.properties
+push.bat
+pull.bat
+src/main/main.iml
+src/test/test.iml
+push.sh
+*.log
+**/.DS_Store
