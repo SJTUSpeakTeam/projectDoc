@@ -1,0 +1,316 @@
+.lmlblog-main-right {
+    float: right;
+    width: 300px;
+}
+.lmlblog-main-left{
+    float: left;
+    width: 710px;
+}
+.row:before, .row:after {
+    content: "";
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+.row:after {
+    clear: both;
+}
+.topic-avatar {
+    border-top: 1px solid var(--primary-low);
+    padding-top: 15px;
+    width: 45px;
+    float: left;
+    z-index: 2;
+}
+.topic-avatar, .user-card-avatar {
+    position: relative;
+}
+.posts-wrapper {
+    position: relative;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+img.avatar {
+    border-radius: 50%;
+}
+.topic-avatar .poster-avatar-extra {
+    display: none;
+}
+.topic-body {
+    width: calc(690px + (11px * 2));
+    float: left;
+    position: relative;
+    border-top: 1px solid var(--primary-low);
+    padding: 12px 0 0 0;
+}
+.topic-body .topic-meta-data, .topic-body .cooked {
+    padding: 0 11px 0.25em 11px;
+}
+.topic-meta-data {
+    display: flex;
+    align-items: flex-start;
+}
+.topic-meta-data {
+    align-items: center;
+}
+.topic-meta-data .names {
+    display: flex;
+    align-items: center;
+}
+.topic-meta-data .names {
+    margin-right: auto;
+}
+.names {
+    flex: 1 1 auto;
+    overflow: hidden;
+}
+.names span {
+    font-size: 1em;
+    margin-right: 8px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+}
+.names span.first {
+    display: flex;
+    align-items: baseline;
+    font-weight: bold;
+}
+.topic-meta-data .post-infos {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+}
+.post-info {
+    flex: 0 0 auto;
+    margin-right: 0.5em;
+}
+.post-info.post-date {
+    margin-right: 0;
+}
+.read-state {
+    position: absolute;
+    align-self: center;
+    color: var(--tertiary-medium);
+    right: 0;
+    font-size: 0.571em;
+}
+.read-state.read {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity ease-out 1s;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.svg-icon, .svg-icon-title {
+    height: 1em;
+    width: 1em;
+    line-height: 1;
+    display: inline-flex;
+    position: relative;
+    vertical-align: -0.125em;
+    fill: currentColor;
+    flex-shrink: 0;
+    overflow: visible;
+}
+.topic-body .regular {
+    margin-top: 15px;
+}
+.wrap .contents {
+    position: relative;
+}
+.contents {
+    font-size: 14px;
+    line-height: 1.68em;
+}
+.cooked, .d-editor-preview {
+    word-wrap: break-word;
+    line-height: 1.4;
+}
+.cooked, .d-editor-preview {
+    font-size: 15px;
+    line-height: 1.68em;
+}
+.cooked, .d-editor-preview img {
+    max-width: 100%;
+    height: auto;
+}
+.topic-body .cooked {
+    overflow: hidden;
+}
+.topic-body .topic-meta-data, .topic-body .cooked {
+    padding: 0 11px 0.25em 11px;
+}
+aside {
+    display: block;
+}
+aside.quote {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.cooked>*:first-child {
+    margin-top: 0;
+}
+element.style {
+    cursor: pointer;
+}
+aside.quote .title {
+    border-left: 5px solid var(--primary-low);
+    background-color: var(--blend-primary-secondary-5);
+    color: var(--primary-high-or-secondary-low);
+    padding: 12px 12px 0px 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.quote-controls, .quote-controls .d-icon {
+    color: var(--primary-low-mid-or-secondary-high);
+}
+.quote-controls {
+    float: right;
+    display: flex;
+    align-items: center;
+}
+.svg-icon, .svg-icon-title {
+    height: 1em;
+    width: 1em;
+    line-height: 1;
+    display: inline-flex;
+    position: relative;
+    vertical-align: -0.125em;
+    fill: currentColor;
+    flex-shrink: 0;
+    overflow: visible;
+}
+.quote-controls, .quote-controls .d-icon {
+
+}
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+blockquote {
+
+    clear: both;
+}
+blockquote {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 12px;
+}
+aside.quote blockquote {
+    margin-top: 0;
+}
+strong {
+    font-weight: bold;
+}
+b, strong {
+    font-weight: bolder;
+}
+section {
+    display: block;
+}
+.post-menu-area {
+    margin: 20px 0;
+}
+section.post-menu-area {
+    position: relative;
+    padding-left: 11px;
+}
+nav {
+    display: block;
+}
+nav.post-controls {
+    padding: 0;
+}
+button {
+    appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(buttontext, rgb(170, 170, 170));
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(74, 74, 74));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+button, input {
+    overflow: visible;
+}
+button, select {
+    text-transform: none;
+}
+button, [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+label, input, button, select, textarea {
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.2;
+}
+.btn-flat {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    line-height: 1;
+    transition: color 0.25s, background 0.25s;
+}
+nav.post-controls button {
+    font-size: 14px;
+}
+nav.post-controls .show-replies {
+    font-size: 1.1487em;
+    margin-left: -10px;
+    font-size: inherit;
+    padding: 10px;
+    color: var(--primary-medium);
+}
+.svg-icon, .svg-icon-title {
+    height: 1em;
+    width: 1em;
+    line-height: 1;
+    display: inline-flex;
+    position: relative;
+    vertical-align: -0.125em;
+    fill: currentColor;
+    flex-shrink: 0;
+    overflow: visible;
+}
+.btn-flat .d-icon {
+    color: var(--primary-low-mid);
+}
+
+

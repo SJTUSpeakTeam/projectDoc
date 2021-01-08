@@ -1,0 +1,116 @@
+.head_h1{
+    /*height: 70px;*/
+    /*line-height: 70px;*/
+    /*margin: 0 0 0 30px;*/
+    color: orange;
+    display: inline-block;
+    font-size: 40px ;
+    font-family: 'Arial Narrow';
+}
+
+#Contain{
+    background-color: lightyellow;
+    padding-top: 20px; /*设置contain与上面header元素之间的距离*/
+}
+
+
+#Contain-side{
+    /*width: 15%;*/
+    float: left;
+}
+
+#Contain-main {
+    width: 85%;
+    padding: 20px 0 0 0;
+    /*background-color: #fffae5;*/
+    /*height: 1500px;*/
+    background-color: lightyellow;
+    min-width: 800px;
+    float: left;
+}
+
+.example-input > span {
+    width: 200px;
+    margin: 0 8px 8px 0;
+}
+
+.menu-bar {
+    position: fixed;
+    z-index: 999;
+    height: 50px;
+    background-color: rgba(255,255,255,0.94);
+    width: 100%;
+    margin: auto;
+    min-width: 1100px;
+}
+
+.head_content {
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+}
+.menu-bar .content-block {
+    z-index: 999;
+}
+
+#nav ul li {
+    float: left;
+    white-space: nowrap;
+    font-size: 16px;
+    color: #999;
+    margin: 0 0 0 30px;
+    line-height: 24px;
+    display: inline;
+    position: relative;
+}
+div#nav ul li a {
+    color: #333;
+    font-size: 16px;
+}
+
+div#nav ul li.current-menu-item a {
+    color: #FFF;
+}
+#nav a:hover {
+    color: #FF8862;
+}
+
+/*菜单*/
+h1.m-logo {
+    position: relative;
+    float: left;
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    font-size: 40px ;
+}
+h1.m-logo a {
+    position: relative;
+    float: left;
+    width: 220px;
+    height: 50px;
+    /*background: url(../images/logo.png);*/
+    background-size: 180px 45px;
+    background-repeat: no-repeat !important;
+}
+#nav ul {
+    width: 600px;
+    float: right;
+    margin-top: 14px;
+    position: relative;
+}
+
+body {
+    font-family: "Oxygen",Arial,"Hiragino Sans GB","Microsoft YaHei","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;
+    font-size: 14px;
+    background-color: gray;
+    overflow-x: hidden;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+:focus {
+    outline: none;
+}
